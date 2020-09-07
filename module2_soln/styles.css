@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #56ebeb;
+  font-family: Arial, Helvetica,Sans-Serif;
+}
+h2{
+  text-align: center;
+  align-items: center;
+  font-size:150% ;
+}
+p{
+  background-color: pink;
+  position: absolute;
+  top:0;
+  right:0;
+  color: #56ebeb;
+  border:1px solid black;
+  font-size: 100%;
+}
+section{
+  background-color: purple;
+  padding: 30px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  position: relative;
+}
+  
+@media only screen and (min-width:767px){
+ .container{
+  display: inline-flex;
+ }
+ section{
+   display:inline-flex;
+   width: 30%;
+   margin-right: 20px;
+   margin-left: 20px;
+ }
+}
